@@ -67,12 +67,12 @@
     <Node Id="Country_CountryLocalName" Category="Field" Bounds="-871.446087054761,803.597741637282,121.02,25.96" Description="text" Label="CountryLocalName" />
     <Node Id="Country_Currency" Category="Field" Bounds="-871.446087054761,691.677741637281,66.9833333333333,25.96" Description="text" Label="Currency" />
     <Node Id="Country_LanguageISO" Category="Field" Bounds="-871.446087054761,747.637741637281,90.4666666666667,25.96" Description="text" Label="LanguageISO" />
-    <Node Id="Currency" Category="Table" Bounds="598.157246278572,-311.762258362719,231.8,141.92" Group="Expanded" Label="Currency" />
-    <Node Id="Currency_CurrencyName" Category="Field" Bounds="711.277246278572,-215.802258362719,98.6800000000001,25.96" Description="text" Label="CurrencyName" />
-    <Node Id="Currency_Id" Category="Field Primary" Bounds="618.157246278572,-271.762258362719,50,25.96" Description="bigint" Label="Id" />
-    <Node Id="Currency_IsoCode" Category="Field" Bounds="618.157246278572,-215.802258362719,63.12,25.96" Description="text" Label="IsoCode" />
-    <Node Id="Currency_Symbol" Category="Field" Bounds="698.157246278572,-271.762258362719,59.1566666666666,25.96" Description="text" Label="Symbol" />
-    <Node Id="Database" Category="Database" Bounds="-923.391087054761,-351.762258362719,1773.34833333333,1221.32" Group="Expanded" Label="northwindEF.db" UseManualLocation="True" />
+    <Node Id="Currency" Category="Table" Bounds="372.194420701082,-274.309856333301,231.8,141.92" Group="Expanded" Label="Currency" UseManualLocation="True" />
+    <Node Id="Currency_CurrencyName" Category="Field" Bounds="485.31441328815,-178.34969916167,98.68,25.96" Description="text" Label="CurrencyName" />
+    <Node Id="Currency_Id" Category="Field Primary" Bounds="392.194421833073,-234.309713504932,50,25.96" Description="bigint" Label="Id" />
+    <Node Id="Currency_IsoCode" Category="Field" Bounds="392.194419391666,-178.34969916167,63.12,25.96" Description="text" Label="IsoCode" />
+    <Node Id="Currency_Symbol" Category="Field" Bounds="472.194427122786,-234.309713504932,59.1566666666668,25.96" Description="text" Label="Symbol" />
+    <Node Id="Database" Category="Database" Bounds="-923.39111234877,-351.763461665178,1547.38556015015,1221.3226" Group="Expanded" Label="northwindEF.db" UseManualLocation="True" />
     <Node Id="Funder" Category="Table" Bounds="-202.804420388094,395.817741637281,253.756666666667,197.88" Group="Expanded" Label="Funder" />
     <Node Id="FunderContact" Category="Table" Bounds="60.6289129452392,83.9977416372811,272.89,197.88" Group="Expanded" Label="FunderContact" />
     <Node Id="FunderContact_ContactOther" Category="Field" Bounds="177.845579611906,179.957741637281,91.3866666666667,25.96" Description="text" Label="ContactOther" />
