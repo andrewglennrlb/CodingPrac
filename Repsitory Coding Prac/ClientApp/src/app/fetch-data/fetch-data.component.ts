@@ -1,23 +1,20 @@
 import { Component, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Project } from '../Models/Project';
+import { ProjectService } from '../services/ProjectService';
 
 @Component({
   selector: 'app-fetch-data',
-  templateUrl: './fetch-data.component.html'
+  templateUrl: './fetch-data.component.html',
+  providers: [ProjectService]
 })
 export class FetchDataComponent {
-  public forecasts: WeatherForecast[];
+  public projects: Project[];
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
-      this.forecasts = result;
+  constructor(private projectService: ProjectService) {
+    this.projectService.getAllForUserId(1).subscribe(result => {
+      this.projects = result;
     }, error => console.error(error));
   }
 }
 
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
-}
