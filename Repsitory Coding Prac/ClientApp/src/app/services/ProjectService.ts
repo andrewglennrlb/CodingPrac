@@ -10,6 +10,6 @@ export class ProjectService {
 
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string) {}
   getAllForUserId(userId: number): Observable<Project[]> {
-    return this.http.get<Project[]>(`${this.baseUrl}/Project/User/${userId}`);
+    return this.http.get<Project[]>(`${this.baseUrl}Project/User/${userId}`);
   }
 }

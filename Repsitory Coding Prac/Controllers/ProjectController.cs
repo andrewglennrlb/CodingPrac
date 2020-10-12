@@ -20,7 +20,7 @@ namespace Repsitory_Coding_Prac.Controllers
             _projectHandler = projectHandler;
         }
         // GET: api/<ValuesController>
-        [HttpGet("User/{userId}")]
+        [HttpGet("{userId}")]
         public async Task<IEnumerable<Project>> GetByUser(int userId)
         {
             try
