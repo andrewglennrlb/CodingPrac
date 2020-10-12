@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Database" Label="northwindEF.db" Category="Database" Group="Expanded" />
+    <Node Id="Address" Label="Address" Category="Table" Group="Collapsed" />
+    <Node Id="Address_AddressId" Label="AddressId" Category="Field Primary" Description="bigint" />
+    <Node Id="Address_Line1" Label="Line1" Category="Field Optional" Description="text" />
+    <Node Id="Address_Line2" Label="Line2" Category="Field Optional" Description="text" />
+    <Node Id="Address_Line3" Label="Line3" Category="Field Optional" Description="text" />
+    <Node Id="Address_ProvinceId" Label="ProvinceId" Category="Field" Description="bigint" />
+    <Node Id="Address_CountryISOId" Label="CountryISOId" Category="Field" Description="text" />
+    <Node Id="Address_PostCodeId" Label="PostCodeId" Category="Field" Description="bigint" />
+    <Node Id="Address_Longitude" Label="Longitude" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Address_Latitude" Label="Latitude" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Address_TownSuburb" Label="TownSuburb" Category="Field" Description="text" />
+    <Node Id="BaseChange" Label="BaseChange" Category="Table" Group="Collapsed" />
+    <Node Id="BaseChange_BaseChangeId" Label="BaseChangeId" Category="Field Primary" Description="bigint" />
+    <Node Id="BaseChange_ChangeDescription" Label="ChangeDescription" Category="Field" Description="text" />
+    <Node Id="BaseChange_ChangeType" Label="ChangeType" Category="Field" Description="text" />
+    <Node Id="BaseChange_ChangeAmount" Label="ChangeAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="BaseChange_ChangeDuration" Label="ChangeDuration" Category="Field" Description="bigint" />
+    <Node Id="BaseChange_ChangeParentId" Label="ChangeParentId" Category="Field" Description="bigint" />
+    <Node Id="BaseChange_HistoricalEntityId" Label="HistoricalEntityId" Category="Field" Description="bigint" />
+    <Node Id="BaseChange_ReportingPeriodId" Label="ReportingPeriodId" Category="Field" Description="bigint" />
+    <Node Id="BaseChange_PayableItemId" Label="PayableItemId" Category="Field" Description="bigint" />
+    <Node Id="BaseChange_ChangeImpact" Label="ChangeImpact" Category="Field" Description="text" />
+    <Node Id="BaseChange_CurrentStatus" Label="CurrentStatus" Category="Field" Description="text" />
+    <Node Id="BaseChange_ContractId" Label="ContractId" Category="Field" Description="bigint" />
+    <Node Id="BaseChange_ProjectId" Label="ProjectId" Category="Field" Description="bigint" />
+    <Node Id="Contract" Label="Contract" Category="Table" Group="Collapsed" />
+    <Node Id="Contract_ContractId" Label="ContractId" Category="Field Primary" Description="bigint" />
+    <Node Id="Contract_ContractDescription" Label="ContractDescription" Category="Field" Description="text" />
+    <Node Id="Contract_ReportingPeriodId" Label="ReportingPeriodId" Category="Field" Description="bigint" />
+    <Node Id="Contract_HistoricalEntityId" Label="HistoricalEntityId" Category="Field" Description="bigint" />
+    <Node Id="Contract_CurrentAmount" Label="CurrentAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Contract_PaidAmount" Label="PaidAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Contract_CostCategoryId" Label="CostCategoryId" Category="Field" Description="bigint" />
+    <Node Id="Contract_ProjectId" Label="ProjectId" Category="Field" Description="bigint" />
+    <Node Id="Contract_CurrentStatus" Label="CurrentStatus" Category="Field" Description="text" />
+    <Node Id="Contract_ContractType" Label="ContractType" Category="Field" Description="text" />
+    <Node Id="Contract_Scope" Label="Scope" Category="Field" Description="text" />
+    <Node Id="Contract_VendorId" Label="VendorId" Category="Field" Description="bigint" />
+    <Node Id="Contract_PaymentTerms" Label="PaymentTerms" Category="Field" Description="bigint" />
+    <Node Id="Contract_TaxName" Label="TaxName" Category="Field" Description="text" />
+    <Node Id="Contract_TaxRate" Label="TaxRate" Category="Field" Description="numeric(53,0)" />
+    <Node Id="ContractItem" Label="ContractItem" Category="Table" Group="Collapsed" />
+    <Node Id="ContractItem_ContractItemId" Label="ContractItemId" Category="Field Primary" Description="bigint" />
+    <Node Id="ContractItem_ItemType" Label="ItemType" Category="Field" Description="text" />
+    <Node Id="ContractItem_ContractId" Label="ContractId" Category="Field" Description="bigint" />
+    <Node Id="ContractItem_EstimatedAmount" Label="EstimatedAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="ContractItem_CurrentAmount" Label="CurrentAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="ContractItem_PayableemId" Label="PayableemId" Category="Field" Description="bigint" />
+    <Node Id="ContractItem_Description" Label="Description" Category="Field" Description="text" />
+    <Node Id="ContractItem_StandardItemId" Label="StandardItemId" Category="Field" Description="bigint" />
+    <Node Id="CostCategory" Label="CostCategory" Category="Table" Group="Collapsed" />
+    <Node Id="CostCategory_CostCategoryId" Label="CostCategoryId" Category="Field Primary" Description="bigint" />
+    <Node Id="CostCategory_StartDate" Label="StartDate" Category="Field" Description="text" />
+    <Node Id="CostCategory_EndDate" Label="EndDate" Category="Field" Description="text" />
+    <Node Id="CostCategory_CurrentAmount" Label="CurrentAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="CostCategory_ParentCategoryId" Label="ParentCategoryId" Category="Field" Description="bigint" />
+    <Node Id="CostCategory_ProjectId" Label="ProjectId" Category="Field" Description="bigint" />
+    <Node Id="CostCategory_HistoricalEntityId" Label="HistoricalEntityId" Category="Field" Description="bigint" />
+    <Node Id="CostCategory_CalculationId" Label="CalculationId" Category="Field" Description="bigint" />
+    <Node Id="Country" Label="Country" Category="Table" Group="Collapsed" />
+    <Node Id="Country_CountryId" Label="CountryId" Category="Field Primary" Description="bigint" />
+    <Node Id="Country_CountryGlobalName" Label="CountryGlobalName" Category="Field" Description="text" />
+    <Node Id="Country_CountryLocalName" Label="CountryLocalName" Category="Field" Description="text" />
+    <Node Id="Country_CountryISOCode" Label="CountryISOCode" Category="Field" Description="text" />
+    <Node Id="Country_Currency" Label="Currency" Category="Field" Description="text" />
+    <Node Id="Country_LanguageISO" Label="LanguageISO" Category="Field" Description="text" />
+    <Node Id="Currency" Label="Currency" Category="Table" Group="Collapsed" />
+    <Node Id="Currency_Id" Label="Id" Category="Field Primary" Description="bigint" />
+    <Node Id="Currency_IsoCode" Label="IsoCode" Category="Field" Description="text" />
+    <Node Id="Currency_CurrencyName" Label="CurrencyName" Category="Field" Description="text" />
+    <Node Id="Currency_Symbol" Label="Symbol" Category="Field" Description="text" />
+    <Node Id="Funder" Label="Funder" Category="Table" Group="Collapsed" />
+    <Node Id="Funder_FunderId" Label="FunderId" Category="Field Primary" Description="bigint" />
+    <Node Id="Funder_FunderName" Label="FunderName" Category="Field" Description="bigint" />
+    <Node Id="Funder_OrgGroupId" Label="OrgGroupId" Category="Field" Description="bigint" />
+    <Node Id="Funder_FunderBudget" Label="FunderBudget" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Funder_FunderCurrency" Label="FunderCurrency" Category="Field" Description="text" />
+    <Node Id="FunderContact" Label="FunderContact" Category="Table" Group="Collapsed" />
+    <Node Id="FunderContact_FunderContactId" Label="FunderContactId" Category="Field Primary" Description="bigint" />
+    <Node Id="FunderContact_UserId" Label="UserId" Category="Field Optional" Description="bigint" />
+    <Node Id="FunderContact_Title" Label="Title" Category="Field" Description="text" />
+    <Node Id="FunderContact_ContactPhone" Label="ContactPhone" Category="Field" Description="text" />
+    <Node Id="FunderContact_ContactOther" Label="ContactOther" Category="Field" Description="text" />
+    <Node Id="FunderContact_Position" Label="Position" Category="Field" Description="text" />
+    <Node Id="FunderContact_FunderId" Label="FunderId" Category="Field" Description="bigint" />
+    <Node Id="OrgGroup" Label="OrgGroup" Category="Table" Group="Collapsed" />
+    <Node Id="OrgGroup_OrgGroupId" Label="OrgGroupId" Category="Field Primary" Description="bigint" />
+    <Node Id="OrgGroup_OrgGroupName" Label="OrgGroupName" Category="Field" Description="text" />
+    <Node Id="OrgGroup_OrgGroupParentId" Label="OrgGroupParentId" Category="Field" Description="bigint" />
+    <Node Id="OrgGroup_OrgGroupAddressId" Label="OrgGroupAddressId" Category="Field" Description="bigint" />
+    <Node Id="OrgGroup_OrgGroupLocaleId" Label="OrgGroupLocaleId" Category="Field" Description="bigint" />
+    <Node Id="OrgGroup_OrgGroupCurrency" Label="OrgGroupCurrency" Category="Field" Description="text" />
+    <Node Id="Project" Label="Project" Category="Table" Group="Collapsed" />
+    <Node Id="Project_ProjectId" Label="ProjectId" Category="Field Primary" Description="bigint" />
+    <Node Id="Project_ProjectTitle" Label="ProjectTitle" Category="Field" Description="text" />
+    <Node Id="Project_FunderId" Label="FunderId" Category="Field" Description="bigint" />
+    <Node Id="Project_OrgGroupId" Label="OrgGroupId" Category="Field" Description="bigint" />
+    <Node Id="Project_ReportingPeriod" Label="ReportingPeriod" Category="Field" Description="bigint" />
+    <Node Id="Project_HistoricalEntityId" Label="HistoricalEntityId" Category="Field" Description="bigint" />
+    <Node Id="Project_AddressId" Label="AddressId" Category="Field" Description="bigint" />
+    <Node Id="Project_Currency" Label="Currency" Category="Field" Description="text" />
+    <Node Id="Project_CurrentStatus" Label="CurrentStatus" Category="Field" Description="text" />
+    <Node Id="Project_ProjectType" Label="ProjectType" Category="Field" Description="text" />
+    <Node Id="Project_EstimateAmount" Label="EstimateAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Project_PaidAmount" Label="PaidAmount" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Project_StartDate" Label="StartDate" Category="Field" Description="text" />
+    <Node Id="Project_EndDate" Label="EndDate" Category="Field" Description="text" />
+    <Node Id="Project_AuthorId" Label="AuthorId" Category="Field" Description="bigint" />
+    <Node Id="Province" Label="Province" Category="Table" Group="Collapsed" />
+    <Node Id="Province_ProvinceId" Label="ProvinceId" Category="Field Primary" Description="bigint" />
+    <Node Id="Province_ProvinceGlobalName" Label="ProvinceGlobalName" Category="Field" Description="text" />
+    <Node Id="Province_ProvinceLocalName" Label="ProvinceLocalName" Category="Field" Description="text" />
+    <Node Id="Province_Country" Label="Country" Category="Field" Description="text" />
+    <Node Id="Province_Bounds" Label="Bounds" Category="Field" Description="text" />
+    <Node Id="Role" Label="Role" Category="Table" Group="Collapsed" />
+    <Node Id="Role_RoleId" Label="RoleId" Category="Field Primary" Description="bigint" />
+    <Node Id="Role_RoleName" Label="RoleName" Category="Field" Description="text" />
+    <Node Id="Role_RoleLevel" Label="RoleLevel" Category="Field" Description="bigint" />
+    <Node Id="User" Label="User" Category="Table" Group="Collapsed" />
+    <Node Id="User_UserId" Label="UserId" Category="Field Primary" Description="bigint" />
+    <Node Id="User_UserName" Label="UserName" Category="Field" Description="text" />
+    <Node Id="User_Password" Label="Password" Category="Field" Description="image" />
+    <Node Id="User_FirstName" Label="FirstName" Category="Field" Description="text" />
+    <Node Id="User_LastName" Label="LastName" Category="Field" Description="text" />
+    <Node Id="User_Email" Label="Email" Category="Field" Description="text" />
+    <Node Id="User_PrimaryOrgGroup" Label="PrimaryOrgGroup" Category="Field Optional" Description="bigint" />
+    <Node Id="User_PrimaryRole" Label="PrimaryRole" Category="Field" Description="bigint" />
+    <Node Id="UserRole" Label="UserRole" Category="Table" Group="Collapsed" />
+    <Node Id="UserRole_UserRoleId" Label="UserRoleId" Category="Field Primary" Description="bigint" />
+    <Node Id="UserRole_UserId" Label="UserId" Category="Field" Description="bigint" />
+    <Node Id="UserRole_RoleId" Label="RoleId" Category="Field" Description="bigint" />
+    <Node Id="UserRole_OrgGroupId" Label="OrgGroupId" Category="Field" Description="bigint" />
+    <Node Id="UserRole_Expires" Label="Expires" Category="Field Optional" Description="numeric(53,0)" />
+    <Node Id="Vendor" Label="Vendor" Category="Table" Group="Collapsed" />
+    <Node Id="Vendor_VendorId" Label="VendorId" Category="Field Primary" Description="bigint" />
+    <Node Id="Vendor_VendorName" Label="VendorName" Category="Field" Description="text" />
+    <Node Id="Vendor_VendorBusinessNumber" Label="VendorBusinessNumber" Category="Field" Description="numeric(53,0)" />
+    <Node Id="Vendor_VendorOrgGroupId" Label="VendorOrgGroupId" Category="Field" Description="bigint" />
+    <Node Id="Vendor_ContactNumber" Label="ContactNumber" Category="Field" Description="numeric(53,0)" />
+  </Nodes>
+  <Links>
+    <Link Source="Database" Target="Address" Category="Contains" />
+    <Link Source="Address" Target="Address_AddressId" Category="Contains" />
+    <Link Source="Address" Target="Address_Line1" Category="Contains" />
+    <Link Source="Address" Target="Address_Line2" Category="Contains" />
+    <Link Source="Address" Target="Address_Line3" Category="Contains" />
+    <Link Source="Address" Target="Address_ProvinceId" Category="Contains" />
+    <Link Source="Address" Target="Address_CountryISOId" Category="Contains" />
+    <Link Source="Address" Target="Address_PostCodeId" Category="Contains" />
+    <Link Source="Address" Target="Address_Longitude" Category="Contains" />
+    <Link Source="Address" Target="Address_Latitude" Category="Contains" />
+    <Link Source="Address" Target="Address_TownSuburb" Category="Contains" />
+    <Link Source="Database" Target="BaseChange" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_BaseChangeId" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ChangeDescription" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ChangeType" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ChangeAmount" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ChangeDuration" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ChangeParentId" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_HistoricalEntityId" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ReportingPeriodId" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_PayableItemId" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ChangeImpact" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_CurrentStatus" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ContractId" Category="Contains" />
+    <Link Source="BaseChange" Target="BaseChange_ProjectId" Category="Contains" />
+    <Link Source="Database" Target="Contract" Category="Contains" />
+    <Link Source="Contract" Target="Contract_ContractId" Category="Contains" />
+    <Link Source="Contract" Target="Contract_ContractDescription" Category="Contains" />
+    <Link Source="Contract" Target="Contract_ReportingPeriodId" Category="Contains" />
+    <Link Source="Contract" Target="Contract_HistoricalEntityId" Category="Contains" />
+    <Link Source="Contract" Target="Contract_CurrentAmount" Category="Contains" />
+    <Link Source="Contract" Target="Contract_PaidAmount" Category="Contains" />
+    <Link Source="Contract" Target="Contract_CostCategoryId" Category="Contains" />
+    <Link Source="Contract" Target="Contract_ProjectId" Category="Contains" />
+    <Link Source="Contract" Target="Contract_CurrentStatus" Category="Contains" />
+    <Link Source="Contract" Target="Contract_ContractType" Category="Contains" />
+    <Link Source="Contract" Target="Contract_Scope" Category="Contains" />
+    <Link Source="Contract" Target="Contract_VendorId" Category="Contains" />
+    <Link Source="Contract" Target="Contract_PaymentTerms" Category="Contains" />
+    <Link Source="Contract" Target="Contract_TaxName" Category="Contains" />
+    <Link Source="Contract" Target="Contract_TaxRate" Category="Contains" />
+    <Link Source="Database" Target="ContractItem" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_ContractItemId" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_ItemType" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_ContractId" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_EstimatedAmount" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_CurrentAmount" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_PayableemId" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_Description" Category="Contains" />
+    <Link Source="ContractItem" Target="ContractItem_StandardItemId" Category="Contains" />
+    <Link Source="Database" Target="CostCategory" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_CostCategoryId" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_StartDate" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_EndDate" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_CurrentAmount" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_ParentCategoryId" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_ProjectId" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_HistoricalEntityId" Category="Contains" />
+    <Link Source="CostCategory" Target="CostCategory_CalculationId" Category="Contains" />
+    <Link Source="Database" Target="Country" Category="Contains" />
+    <Link Source="Country" Target="Country_CountryId" Category="Contains" />
+    <Link Source="Country" Target="Country_CountryGlobalName" Category="Contains" />
+    <Link Source="Country" Target="Country_CountryLocalName" Category="Contains" />
+    <Link Source="Country" Target="Country_CountryISOCode" Category="Contains" />
+    <Link Source="Country" Target="Country_Currency" Category="Contains" />
+    <Link Source="Country" Target="Country_LanguageISO" Category="Contains" />
+    <Link Source="Database" Target="Currency" Category="Contains" />
+    <Link Source="Currency" Target="Currency_Id" Category="Contains" />
+    <Link Source="Currency" Target="Currency_IsoCode" Category="Contains" />
+    <Link Source="Currency" Target="Currency_CurrencyName" Category="Contains" />
+    <Link Source="Currency" Target="Currency_Symbol" Category="Contains" />
+    <Link Source="Database" Target="Funder" Category="Contains" />
+    <Link Source="Funder" Target="Funder_FunderId" Category="Contains" />
+    <Link Source="Funder" Target="Funder_FunderName" Category="Contains" />
+    <Link Source="Funder" Target="Funder_OrgGroupId" Category="Contains" />
+    <Link Source="Funder" Target="Funder_FunderBudget" Category="Contains" />
+    <Link Source="Funder" Target="Funder_FunderCurrency" Category="Contains" />
+    <Link Source="Database" Target="FunderContact" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_FunderContactId" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_UserId" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_Title" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_ContactPhone" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_ContactOther" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_Position" Category="Contains" />
+    <Link Source="FunderContact" Target="FunderContact_FunderId" Category="Contains" />
+    <Link Source="Database" Target="OrgGroup" Category="Contains" />
+    <Link Source="OrgGroup" Target="OrgGroup_OrgGroupId" Category="Contains" />
+    <Link Source="OrgGroup" Target="OrgGroup_OrgGroupName" Category="Contains" />
+    <Link Source="OrgGroup" Target="OrgGroup_OrgGroupParentId" Category="Contains" />
+    <Link Source="OrgGroup" Target="OrgGroup_OrgGroupAddressId" Category="Contains" />
+    <Link Source="OrgGroup" Target="OrgGroup_OrgGroupLocaleId" Category="Contains" />
+    <Link Source="OrgGroup" Target="OrgGroup_OrgGroupCurrency" Category="Contains" />
+    <Link Source="Database" Target="Project" Category="Contains" />
+    <Link Source="Project" Target="Project_ProjectId" Category="Contains" />
+    <Link Source="Project" Target="Project_ProjectTitle" Category="Contains" />
+    <Link Source="Project" Target="Project_FunderId" Category="Contains" />
+    <Link Source="Project" Target="Project_OrgGroupId" Category="Contains" />
+    <Link Source="Project" Target="Project_ReportingPeriod" Category="Contains" />
+    <Link Source="Project" Target="Project_HistoricalEntityId" Category="Contains" />
+    <Link Source="Project" Target="Project_AddressId" Category="Contains" />
+    <Link Source="Project" Target="Project_Currency" Category="Contains" />
+    <Link Source="Project" Target="Project_CurrentStatus" Category="Contains" />
+    <Link Source="Project" Target="Project_ProjectType" Category="Contains" />
+    <Link Source="Project" Target="Project_EstimateAmount" Category="Contains" />
+    <Link Source="Project" Target="Project_PaidAmount" Category="Contains" />
+    <Link Source="Project" Target="Project_StartDate" Category="Contains" />
+    <Link Source="Project" Target="Project_EndDate" Category="Contains" />
+    <Link Source="Project" Target="Project_AuthorId" Category="Contains" />
+    <Link Source="Database" Target="Province" Category="Contains" />
+    <Link Source="Province" Target="Province_ProvinceId" Category="Contains" />
+    <Link Source="Province" Target="Province_ProvinceGlobalName" Category="Contains" />
+    <Link Source="Province" Target="Province_ProvinceLocalName" Category="Contains" />
+    <Link Source="Province" Target="Province_Country" Category="Contains" />
+    <Link Source="Province" Target="Province_Bounds" Category="Contains" />
+    <Link Source="Database" Target="Role" Category="Contains" />
+    <Link Source="Role" Target="Role_RoleId" Category="Contains" />
+    <Link Source="Role" Target="Role_RoleName" Category="Contains" />
+    <Link Source="Role" Target="Role_RoleLevel" Category="Contains" />
+    <Link Source="Database" Target="User" Category="Contains" />
+    <Link Source="User" Target="User_UserId" Category="Contains" />
+    <Link Source="User" Target="User_UserName" Category="Contains" />
+    <Link Source="User" Target="User_Password" Category="Contains" />
+    <Link Source="User" Target="User_FirstName" Category="Contains" />
+    <Link Source="User" Target="User_LastName" Category="Contains" />
+    <Link Source="User" Target="User_Email" Category="Contains" />
+    <Link Source="User" Target="User_PrimaryOrgGroup" Category="Contains" />
+    <Link Source="User" Target="User_PrimaryRole" Category="Contains" />
+    <Link Source="Database" Target="UserRole" Category="Contains" />
+    <Link Source="UserRole" Target="UserRole_UserRoleId" Category="Contains" />
+    <Link Source="UserRole" Target="UserRole_UserId" Category="Contains" />
+    <Link Source="UserRole" Target="UserRole_RoleId" Category="Contains" />
+    <Link Source="UserRole" Target="UserRole_OrgGroupId" Category="Contains" />
+    <Link Source="UserRole" Target="UserRole_Expires" Category="Contains" />
+    <Link Source="Database" Target="Vendor" Category="Contains" />
+    <Link Source="Vendor" Target="Vendor_VendorId" Category="Contains" />
+    <Link Source="Vendor" Target="Vendor_VendorName" Category="Contains" />
+    <Link Source="Vendor" Target="Vendor_VendorBusinessNumber" Category="Contains" />
+    <Link Source="Vendor" Target="Vendor_VendorOrgGroupId" Category="Contains" />
+    <Link Source="Vendor" Target="Vendor_ContactNumber" Category="Contains" />
+  </Links>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Table" ValueLabel="True">
+      <Condition Expression="HasCategory('Table')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Schema" ValueLabel="True">
+      <Condition Expression="HasCategory('Schema')" />
+      <Setter Property="Background" Value="#FF7F9169" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Primary" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Primary')" />
+      <Setter Property="Background" Value="#FF008000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Optional" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Optional')" />
+      <Setter Property="Background" Value="#FF808040" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field Foreign" ValueLabel="True">
+      <Condition Expression="HasCategory('Field Foreign')" />
+      <Setter Property="Background" Value="#FF8080FF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="True">
+      <Condition Expression="HasCategory('Field')" />
+      <Setter Property="Background" Value="#FFC0A000" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Database" ValueLabel="True">
+      <Condition Expression="HasCategory('Database')" />
+      <Setter Property="Background" Value="#FFFFFFFF" />
+    </Style>
+  </Styles>
+</DirectedGraph>

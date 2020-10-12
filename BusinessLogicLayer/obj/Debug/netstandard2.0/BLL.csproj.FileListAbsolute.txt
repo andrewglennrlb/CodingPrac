@@ -1,0 +1,12 @@
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\bin\Debug\netstandard2.0\BLL.deps.json
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.dll
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\BusinessLogicLayer\obj\Debug\netstandard2.0\BLL.pdb

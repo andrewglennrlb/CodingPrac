@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Integration\Controllers\" />
+    <Folder Include="Mocks\" />
+    <Folder Include="Unit\BLL.Calculators\" />
+    <Folder Include="Unit\BLL.Common\" />
+    <Folder Include="Unit\BLL.Handlers\" />
+    <Folder Include="Unit\BLL.Security\" />
+    <Folder Include="Unit\Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BLL.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\DAL.csproj" />
+    <ProjectReference Include="..\Repsitory Coding Prac\Repsitory Coding Prac.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\obj\Debug\netstandard2.0\DAL.dll
+C:\Users\ukon\workspace\Samples\RLB.CodingPrac\Repsitory Coding Prac\DataAccessLayer\obj\Debug\netstandard2.0\DAL.pdb
