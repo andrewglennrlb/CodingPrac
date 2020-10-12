@@ -36,9 +36,14 @@ namespace DAL.Repositories
         /// </summary>
         /// <param name="UserId"></param>
         /// <returns></returns>
-        public Task<IEnumerable<Project>> GetProjectsForUser(int UserId)
+        public async Task<IEnumerable<Project>> GetProjectsForUser(int UserId)
         {
-            throw new NotImplementedException();
+            var sql = "Select * from Project where AuthorId = @UserId";
+            using (var connection = _connectionFactory.GetOpenConnection())
+            {
+                var results = await connection.QueryAsync<Project>(sql, new { UserId });
+                return results;
+            }
         }
 
         /// <summary>

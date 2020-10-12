@@ -23,7 +23,7 @@ namespace DAL.Connection
         {
             if (_connectionString == null) throw new NullReferenceException("Connection string can not be empty");
 
-            var conn = new SqlConnection(_connectionString);
+            var conn = new System.Data.SQLite.SQLiteConnection(_connectionString);
             conn.Open();
             return conn;
         }
@@ -32,7 +32,7 @@ namespace DAL.Connection
         {
             if (_connectionString == null) throw new NullReferenceException("Connection string can not be empty");
 
-            var conn = new SqlConnection(_connectionString);
+            var conn = new System.Data.SQLite.SQLiteConnection(_connectionString);
             await conn.OpenAsync();
             return conn;
         }
