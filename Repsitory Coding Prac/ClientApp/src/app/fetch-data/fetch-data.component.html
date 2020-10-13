@@ -18,8 +18,20 @@
     <tr *ngFor="let project of projects">
       <td>{{ project.projectId }}</td>
       <td>{{ project.projectTitle }}</td>
-      <td>{{ project.startDate }}</td>
-      <td>{{ project.endDate }}</td>
+      <td class='date-input'>
+        <mat-form-field>
+          <input matInput [matDatepicker]="picker1" [value]="project.startDate">
+          <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+          <mat-datepicker #picker1></mat-datepicker>
+        </mat-form-field>
+      </td>
+      <td class='date-input'>
+        <mat-form-field>
+          <input matInput [matDatepicker]="picker2" [value]="project.endDate">
+          <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+          <mat-datepicker #picker2></mat-datepicker>
+        </mat-form-field>
+      </td>
       <td>{{ project.currentStatus }}</td>
     </tr>
   </tbody>
