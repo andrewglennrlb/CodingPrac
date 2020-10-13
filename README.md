@@ -1,4 +1,3 @@
-# CodingPrac
 # RLB CodingPrac
 
 The following repository represents a basic setup of an RLB project. It includes an n-tier project in dotnetCore with the client-facing application represented by an Angular web application which points to a dotnetCore API.
