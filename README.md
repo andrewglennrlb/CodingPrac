@@ -64,6 +64,24 @@ A software developer is generally comfortable with text based interfaces. So one
 
 * Latest reports are sent online with latest models.
 
+## Current QS Approach
+An Excel spreadsheet with sheets for (RLB Pulse Project:
+* Project Details and top level calulcations
+* Forecast
+* Cost Categories
+* Contracts
+* Contract Items (all in 1 sheet but references to contract)
+* PayApps (all in 1 sheet but references to contract). Contingency included. Could Also be linked to Contract Item
+* Change registrar (All contracts)
+* Cashflow - maybe
+
+Alternatively, there may be one excel file per contract. 
+* NB: Lots of calculations between sheets.
+* NB2: No formal validation
+* Revision Control based on File naming conventions or maybe metadata.
+* Potentially with imports from other software like Microsoft Project.
+
+
 ## RLB CodingPrac
 
 The following repository represents a basic setup of an RLB project. It includes an n-tier project in dotnetCore with the client-facing application represented by an Angular web application which points to a dotnetCore API.
