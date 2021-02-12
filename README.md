@@ -21,14 +21,17 @@ As a side note, the ICMS standard attempted to create a single universal model t
 
 ## A Software Developer's approach.
 
-A software developer is generally comfortable with text based interfaces. So one 
+A software developer is generally comfortable with text based interfaces. So one could:
+
+* git checkout -b 380-St-Kilda-Road-Estimate
+* git checkout -b 380-St-Kilda-Road-Estimate-initial 
 
 * Create a new tempalte file (in json or xml)
-`rlb create project`
+`rlb create project --type RLBPulse --name '380 St Kilda Road'`
 
-* Edit the json / xml file
+* Edit the json / xml file 380-st-kilda-road.xml
 ```
-<Project type="Estimate" OrgUnitId="1" >
+<Project type="Estimate" OrgUnitId="1" name="380 St Kilda Road">
    <Funder Id="1" Name="PDG">
    <ReportingPeriods>
       <period id="1" startDate="2020-01-01" endDate="2020-31-01" status="Active" />
@@ -40,6 +43,26 @@ A software developer is generally comfortable with text based interfaces. So one
    <Periods />
 </Project>
 ```
+
+* Compile and Validate Project
+`rlb compile 380-st-kilda-road.xml` > 380-st-kilda-road.compiled.xml
+
+* Which would tell you validation issues - like "cannot create payapp unless contract is approved"
+* On successful compile, we could run
+`rlb calculate 380-st-kilda-road.compiled.xml`
+
+* This would create a file 380-st-kilda-road.calculated.xml
+
+* Then build reports:
+`rlb build 380-st-kilda-road.calculated.xml`
+* Which which generate a full suite of reports for the client.
+
+* Upload proposed changes
+`git add / commit`
+
+* Create a pull request for a senior user to review and approve the pull request
+
+* Latest reports are sent online with latest models.
 
 ## RLB CodingPrac
 
