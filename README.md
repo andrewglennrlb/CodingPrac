@@ -33,6 +33,11 @@ A software developer is generally comfortable with text based interfaces. So one
    <ReportingPeriods>
       <period id="1" startDate="2020-01-01" endDate="2020-31-01" status="Active" />
    </ReportingPeriods>
+   <CostCategories>
+      <Category ID="1" Name="Foundations" CurrentValue="100000.00" startActivity="" endActivity="" cashflowCurve=""
+   </CostCategories>
+   <Acitivities />
+   <Periods />
 </Project>
 ```
 
