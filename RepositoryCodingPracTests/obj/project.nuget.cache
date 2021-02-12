@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mhtxp+in+NhS3sYZCBdeOZn9wWIQtQD/wq9LynnJ8A3p3qTi14bFG7a5beJMgEJLd2XaSL5UUM8dRmtK5P51pA==",
+  "dgSpecHash": "UJxIg0p2n2wk4wN1sQkKfaa5VbE2AmHayBvhFTRMsTD4/DOgrzqCCPIMXyvNDzuCoiUWCxLS8z70QbnyIqiv9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj",
+  "projectFilePath": "C:\\Users\\ukon\\workspace\\CodingPrac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ukon\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\ukon\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
@@ -123,8 +123,7 @@
     "C:\\Users\\ukon\\.nuget\\packages\\xunit.core\\2.4.0\\xunit.core.2.4.0.nupkg.sha512",
     "C:\\Users\\ukon\\.nuget\\packages\\xunit.extensibility.core\\2.4.0\\xunit.extensibility.core.2.4.0.nupkg.sha512",
     "C:\\Users\\ukon\\.nuget\\packages\\xunit.extensibility.execution\\2.4.0\\xunit.extensibility.execution.2.4.0.nupkg.sha512",
-    "C:\\Users\\ukon\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512",
-    "C:\\Users\\ukon\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+    "C:\\Users\\ukon\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.0\\xunit.runner.visualstudio.2.4.0.nupkg.sha512"
   ],
   "logs": []
 }

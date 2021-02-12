@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GXJPx9fpmVWi5XWcIgWLBsNK2wn3ZfdRjsCLtSXZdb3Ao4EpQPY4JzeHCT+z2F4+Q2TkTu5zb35001ypWFNXOg==",
+  "dgSpecHash": "PkIHUumTMiLhEsOvu7NspKg3IwOC/tIQeAyIbShWCEjFNOaFRKWD+ekB1zcC+IU8acLVMBvpilNcio6GGWJcQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ukon\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\ukon\\.nuget\\packages\\dapper.contrib\\2.0.35\\dapper.contrib.2.0.35.nupkg.sha512",

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "DataAccessLayer\DAL.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BusinessLogicLayer\BLL.csproj", "{D22D9321-1946-4EB0-B9BB-0A9E9D767138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryCodingPracTests", "RepositoryCodingPracTests\RepositoryCodingPracTests.csproj", "{5B386FCE-2131-498F-ADF5-1600600EDB93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryCodingPracTests", "RepositoryCodingPracTests\RepositoryCodingPracTests.csproj", "{5B386FCE-2131-498F-ADF5-1600600EDB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cli", "git-tacular\cli.csproj", "{0330737C-EC18-42DE-A8A8-AD5009DB7E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5B386FCE-2131-498F-ADF5-1600600EDB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B386FCE-2131-498F-ADF5-1600600EDB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B386FCE-2131-498F-ADF5-1600600EDB93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0330737C-EC18-42DE-A8A8-AD5009DB7E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0330737C-EC18-42DE-A8A8-AD5009DB7E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0330737C-EC18-42DE-A8A8-AD5009DB7E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0330737C-EC18-42DE-A8A8-AD5009DB7E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

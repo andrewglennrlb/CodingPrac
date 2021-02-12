@@ -1,34 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj": {}
+    "C:\\Users\\ukon\\workspace\\CodingPrac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj": {
+    "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj",
+        "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj",
         "packagesPath": "C:\\Users\\ukon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\obj\\",
+        "outputPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ukon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/zJTp2H46j5lEdwt3h3WcTEjY1ZzfbMW2hywgZf48ZDLwZUHtn7/api": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj": {
-                "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj"
+              "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj"
               }
             }
           }
@@ -79,29 +85,35 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj": {
+    "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj",
+        "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj",
         "packagesPath": "C:\\Users\\ukon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ukon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/zJTp2H46j5lEdwt3h3WcTEjY1ZzfbMW2hywgZf48ZDLwZUHtn7/api": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -154,41 +166,47 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj": {
+    "C:\\Users\\ukon\\workspace\\CodingPrac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj",
+        "projectUniqueName": "C:\\Users\\ukon\\workspace\\CodingPrac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj",
         "projectName": "RepositoryCodingPracTests",
-        "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj",
+        "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\RepositoryCodingPracTests\\RepositoryCodingPracTests.csproj",
         "packagesPath": "C:\\Users\\ukon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\RepositoryCodingPracTests\\obj\\",
+        "outputPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\RepositoryCodingPracTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ukon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/zJTp2H46j5lEdwt3h3WcTEjY1ZzfbMW2hywgZf48ZDLwZUHtn7/api": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj": {
-                "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj"
+              "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj": {
+                "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj"
               },
-              "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj": {
-                "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj"
+              "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj"
               },
-              "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj": {
-                "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj"
+              "C:\\Users\\ukon\\workspace\\CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj": {
+                "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj"
               }
             }
           }
@@ -229,12 +247,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -243,38 +255,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj": {
+    "C:\\Users\\ukon\\workspace\\CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj",
+        "projectUniqueName": "C:\\Users\\ukon\\workspace\\CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj",
         "projectName": "Repsitory Coding Prac",
-        "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj",
+        "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac.csproj",
         "packagesPath": "C:\\Users\\ukon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\Repsitory Coding Prac\\obj\\",
+        "outputPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\Repsitory Coding Prac\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
         "configFilePaths": [
           "C:\\Users\\ukon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/zJTp2H46j5lEdwt3h3WcTEjY1ZzfbMW2hywgZf48ZDLwZUHtn7/api": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj": {
-                "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj"
+              "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj": {
+                "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj"
               },
-              "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj": {
-                "projectPath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\DataAccessLayer\\DAL.csproj"
+              "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj": {
+                "projectPath": "C:\\Users\\ukon\\workspace\\CodingPrac\\DataAccessLayer\\DAL.csproj"
               }
             }
           }
@@ -323,12 +341,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -337,7 +349,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

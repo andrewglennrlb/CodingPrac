@@ -11,7 +11,7 @@ namespace DAL.Models
         public Int64 ContractId { get; set; }
 
         
-        public String ContractDescription { get; set; }
+        public string ContractDescription { get; set; }
 
         
         public Int64 ReportingPeriodId { get; set; }
@@ -32,13 +32,13 @@ namespace DAL.Models
         public Int64 ProjectId { get; set; }
 
         
-        public String CurrentStatus { get; set; }
+        public string CurrentStatus { get; set; }
 
         
-        public String ContractType { get; set; }
+        public string ContractType { get; set; }
 
         
-        public String Scope { get; set; }
+        public string Scope { get; set; }
 
         
         public Int64 VendorId { get; set; }
@@ -47,9 +47,9 @@ namespace DAL.Models
         public Int64 PaymentTerms { get; set; }
 
         
-        public String TaxName { get; set; }
+        public string TaxName { get; set; }
 
         
-        public Decimal TaxRate { get; set; }
+        public decimal TaxRate { get; set; }
     }
 }

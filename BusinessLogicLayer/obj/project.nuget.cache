@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qj1FmD83g7Vzv4mvF6IVYM8A2QulQbdMGcGtq7OehLyiE5wxjnETD1+ov2PCC95yTfPToWIeY00jRUyUEYxCAg==",
+  "dgSpecHash": "zS7QCihfTAYwQYLTBwl7Dp6Hvcn8sjjfGlDaFjD/bAvqOSLUbOuH4UyKsdgbuBfgmSREgioAuS4jhqfZLp1/8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ukon\\workspace\\Samples\\RLB.CodingPrac\\Repsitory Coding Prac\\BusinessLogicLayer\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\ukon\\workspace\\CodingPrac\\BusinessLogicLayer\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ukon\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\ukon\\.nuget\\packages\\dapper.contrib\\2.0.35\\dapper.contrib.2.0.35.nupkg.sha512",
