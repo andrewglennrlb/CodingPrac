@@ -23,6 +23,19 @@ As a side note, the ICMS standard attempted to create a single universal model t
 
 A software developer is generally comfortable with text based interfaces. So one 
 
+* Create a new tempalte file (in json or xml)
+`rlb create project`
+
+* Edit the json / xml file
+```
+<Project type="Estimate" OrgUnitId="1" >
+   <Funder Id="1" Name="PDG">
+   <ReportingPeriods>
+      <period id="1" startDate="2020-01-01" endDate="2020-31-01" status="Active" />
+   </ReportingPeriods>
+</Project>
+```
+
 ## RLB CodingPrac
 
 The following repository represents a basic setup of an RLB project. It includes an n-tier project in dotnetCore with the client-facing application represented by an Angular web application which points to a dotnetCore API.
